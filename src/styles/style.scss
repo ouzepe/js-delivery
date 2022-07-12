@@ -1,0 +1,17 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+@import 'variables';
+@import 'mixins';
+
+
+
+// Global
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: $black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

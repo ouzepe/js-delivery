@@ -1,0 +1,66 @@
+@import 'src/styles/variables';
+@import 'src/styles/mixins';
+
+.header{
+    position: absolute;
+    // background-color: white;
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    padding: 30px 30px 30px 15%;
+    color: white;
+    @include media("<laptop"){
+        padding: 30px 30px 30px 5%;
+     }
+    a {
+        text-decoration: none;
+        @include media("<laptop"){
+           width: 200px;
+        }
+    }
+    
+}
+.navLink{
+    width: 100%;
+}
+.navLink, a, ul, li{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ul{
+    margin-left: 10%;
+    
+    @include media("<=laptop"){
+        margin-left: 2%;
+    }
+}
+
+.contact{
+    margin-left: 45%;
+    background-color: $yellow;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 150px;
+    @include media("<laptop"){
+        margin-left: 20%;
+    }
+}
+.list{
+    color: white;
+    margin-left: 40%;
+    font-size: 18px;
+    font-weight: bold;
+    @include media("<laptop"){
+        margin-left: 10%;
+    }
+}

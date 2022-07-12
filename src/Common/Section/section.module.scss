@@ -1,0 +1,29 @@
+@import 'src/styles/variables';
+@import 'src/styles/mixins';
+
+.section{
+    width: 70vw;
+    height: 100vh;
+    position: absolute;
+    // color: white;
+    display: flex;
+    flex-direction: column;
+    h1{
+       font-size: 90px;
+       position: relative;
+       top: 15%;
+       left: 20%;
+       height: 1px;
+    }
+    p{
+        position: relative;
+        top: 20%;
+        left: 20%;
+        @include media("<tablet"){
+            top: 30%;
+        }
+        @include media("<laptop"){
+            top: 30%;
+        }
+    }
+}
