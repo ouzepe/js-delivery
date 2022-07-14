@@ -8,8 +8,8 @@ function Home() {
     <div className={styles.background}>
       <Menu />
       <Section
-        firstTitle="Rapide"
-        secondTitle="Livraison Sécurisée"
+        firstTitle="Livraison Rapide"
+        secondTitle="Sécurisée"
         subTitle="Notre équipe se fait un devoir 
         de vous livrai de façon courtoise et rapide"
        
